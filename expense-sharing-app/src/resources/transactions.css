@@ -1,0 +1,39 @@
+.filter{
+    width: 100%;    /* Ensures the div takes up all available horizontal space */
+    box-shadow: 0 0 3px grey;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;  /* Make sure it's flex to align children properly */
+    justify-content: space-between; /* Keeps items spread out */
+    align-items: center; /* Align items vertically */
+}
+.filter .d-flex {
+    flex-grow: 1;  /* Allows flex children to grow and fill the available space */
+}
+
+.filter .d-flex > div { /* Assuming each select or related component is wrapped in a div */
+    width: 100%;
+}
+.transaction-form label{
+    color:black !important;
+}
+.table-analytics {
+    width: 100%;    /* Ensures the div takes up all available horizontal space */
+    padding: 0;     /* Remove padding that might be reducing the effective width of the table */
+}
+.view-switch{
+    color:aqua !important;
+    border:1px solid black;
+    padding:5px 10px;
+    background-color: white;
+}
+.anticon svg{
+    font-size:20px;
+}
+.active-icon{
+    color:black;
+    
+}
+.inactive-icon{
+    color:grey;
+}

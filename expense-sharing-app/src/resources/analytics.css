@@ -1,0 +1,27 @@
+.analytics-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.analytics-box {
+    width: 45%;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+.progress-bars {
+    margin-top: 20px;
+}
+
+.custom-progress .ant-progress-text {
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.custom-progress .ant-progress-bg {
+    border-radius: 10px;
+}

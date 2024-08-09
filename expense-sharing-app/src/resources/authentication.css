@@ -1,0 +1,28 @@
+.register{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* margin-right:300px; */
+    background-color: #1a1a2e;
+}
+.register Input{
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid rgba(137,137,137,0.696);
+    
+}
+Input:focus{
+    outline:none !important;
+    box-shadow:none !important;
+
+}
+
+label{
+    color:rgba(255,255,255,0.536) !important;
+}
+.register h1{
+    font-size:25px;
+    color:white;
+
+}
